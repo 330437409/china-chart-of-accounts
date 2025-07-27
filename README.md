@@ -44,5 +44,15 @@ Template of China Chart of Account for ERPNext 12+
 | Tax | 税项 |
 | Temporary | 临时 |
 
+
+介绍
+ERPNext 中国会计科目表. 逐渐完善中. 现在大项已经完成.
+
+软件架构
+json 文件, 贴上即可用.
+将json文件贴到 /URL2your_erpnext/apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified
+
+使用说明
+在创建公司时选择标准模板,科目表选择"CN-2016-2020会计准则科目表" 输入图片说明
 # License
 [GNU GPL V3](https://github.com/r3f/china-chart-of-accounts/blob/master/LICENSE)
