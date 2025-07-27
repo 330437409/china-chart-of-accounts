@@ -1,758 +1,1534 @@
 {
-    "contry_code": "cn",
-    "name": "CN-2016-2020\u4F1A\u8BA1\u51C6\u5219\u79D1\u76EE\u8868",
+    "country_code": "cn",
+    "name": "中国企业会计准则",
     "tree": {
-        "\u8D44\u4EA7": {
-            "\u4E34\u65F6\u5F00\u8D26": {
-                "Temporary Opening":{
-                    "account_type":"Temporary"
-                },
-                "account_type": "Temporary"
-            },
-            "account_number": "1",
+        "资产类": {
+            "is_group": 1,
             "root_type": "Asset",
-            "is_group": "1",
-            "\u5E93\u5B58\u73B0\u91D1": {
-                "account_number": "1001",
-                "account_type": "Cash",
-                "is_group": "1"
+            "account_number": "",
+            "account_type": "",
+            "库存现金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1001,
+                "account_type": "Cash"
             },
-            "\u94F6\u884C\u5B58\u6B3E": {
-                "account_number": "1002",
-                "account_type": "Bank",
-                "is_group": "1"
+            "银行存款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1002,
+                "account_type": "Bank"
             },
-            "\u5B58\u653E\u4E2D\u592E\u94F6\u884C\u6B3E\u9879": {
-                "account_number": "1003",
-                "is_group": "1",
-                "\u6D41\u52A8\u6027\u8F6C\u79FB": {
-                    "account_number": "1003.01"
-                }
+            "存放中央银行款项": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1003,
+                "account_type": ""
             },
-            "\u5B58\u653E\u540C\u4E1A": {
-                "account_number": "1011"
+            "存放同业": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1011,
+                "account_type": ""
             },
-            "\u5176\u4ED6\u8D27\u5E01\u8D44\u91D1": {
-                "account_number": "1012"
+            "其他货币资金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1012,
+                "account_type": "Bank"
             },
-            "\u7ED3\u7B97\u5907\u4ED8\u91D1": {
-                "account_number": "1021"
+            "结算备付金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1021,
+                "account_type": ""
             },
-            "\u5B58\u50A8\u4FDD\u8BC1\u91D1": {
-                "account_number": "1031"
+            "存出保证金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1031,
+                "account_type": ""
             },
-            "\u4EA4\u6613\u6027\u91D1\u878D\u8D44\u4EA7": {
-                "account_number": "1101"
+            "交易性金融资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1101,
+                "account_type": ""
             },
-            "\u4E70\u5165\u8FD4\u552E\u91D1\u878D\u8D44\u4EA7": {
-                "account_number": "1111"
+            "买入返售金融资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1111,
+                "account_type": ""
             },
-            "\u5E94\u6536\u7968\u636E": {
-                "account_number": "1121",
+            "应收票据": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1121,
+                "account_type": ""
+            },
+            "应收账款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1122,
                 "account_type": "Receivable"
             },
-            "\u5E94\u6536\u8D26\u6B3E": {
-                "account_number": "1122",
-                "account_type": "Receivable",
+            "预付账款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1123,
+                "account_type": ""
+            },
+            "应收股利": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1131,
+                "account_type": ""
+            },
+            "应收利息": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1132,
+                "account_type": ""
+            },
+            "应收代位追偿款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1201,
+                "account_type": ""
+            },
+            "应收分保账款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1211,
+                "account_type": ""
+            },
+            "应收分保合同准备金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1212,
+                "account_type": ""
+            },
+            "其他应收款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1221,
+                "account_type": ""
+            },
+            "坏账准备": {
                 "is_group": "1",
-                "\u5B9E\u6B3E": {
-                    "account_number": "1122.01"
-                }
+                "root_type": "",
+                "account_number": 1231,
+                "account_type": ""
             },
-            "\u9884\u4ED8\u8D26\u6B3E": {
-                "account_number": "1123",
-                "account_type": "Receivable",
-                "is_group": "1",
-                "\u8D27\u6B3E": {
-                    "account_number": "1123.01"
-                }
+            "计提应收账款准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": "1231001",
+                "account_type": ""
             },
-            "\u5E94\u6536\u8D26\u6B3E(PoS)": {
-                "account_number": "1124",
-                "account_type": "Receivable"
+            "计提其他应收款准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": "1231002",
+                "account_type": ""
             },
-            "\u5E94\u6536\u80A1\u5229": {
-                "account_number": "1131",
-                "account_type": "Receivable"
+            "贴现资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1301,
+                "account_type": ""
             },
-            "\u5E94\u6536\u5229\u606F": {
-                "account_number": "1132",
-                "account_type": "Receivable"
+            "拆出资金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1302,
+                "account_type": ""
             },
-            "\u5E94\u6536\u4EE3\u4F4D\u8FFD\u507F\u6B3E": {
-                "account_number": "1201"
+            "贷款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1303,
+                "account_type": ""
             },
-            "\u5E94\u6536\u5206\u4FDD\u8D26\u6B3E": {
-                "account_number": "1211"
+            "贷款损失准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1304,
+                "account_type": ""
             },
-            "\u5E94\u6536\u5206\u4FDD\u5408\u540C\u51C6\u5907\u91D1": {
-                "account_number": "1212"
+            "代理兑付证券": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1311,
+                "account_type": ""
             },
-            "\u5176\u4ED6\u5E94\u6536\u6B3E": {
-                "account_number": "1221",
-                "is_group": "1",
-                "\u5458\u5DE5": {
-                    "account_number": "1221.01"
-                },
-                "\u5916\u90E8\u5355\u4F4D": {
-                    "account_number": "1221.02"
-                }
+            "代理业务资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1321,
+                "account_type": ""
             },
-            "\u574F\u8D26\u51C6\u5907": {
-                "account_number": "1231"
+            "材料采购": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1401,
+                "account_type": "Stock"
             },
-            "\u8D34\u73B0\u8D44\u4EA7": {
-                "account_number": "1301"
+            "在途物资": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1402,
+                "account_type": "Stock"
             },
-            "\u62C6\u51FA\u8D44\u91D1": {
-                "account_number": "1302"
+            "原材料": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1403,
+                "account_type": "Stock"
             },
-            "\u8D37\u6B3E": {
-                "account_number": "1303"
+            "材料成本差异": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1404,
+                "account_type": ""
             },
-            "\u8D37\u6B3E\u635F\u5931\u51C6\u5907": {
-                "account_number": "1304"
+            "库存商品": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1405,
+                "account_type": "Stock"
             },
-            "\u4EE3\u7406\u5151\u4ED8\u8BC1\u5238": {
-                "account_number": "1311"
+            "发出商品": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1406,
+                "account_type": "Stock"
             },
-            "\u4EE3\u7406\u4E1A\u52A1\u8D44\u4EA7": {
-                "account_number": "1321"
+            "商品进销差价": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1407,
+                "account_type": ""
             },
-            "\u6750\u6599\u91C7\u8D2D": {
-                "account_number": "1401"
+            "委托加工物资": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1408,
+                "account_type": "Stock"
             },
-            "\u5728\u9014\u7269\u8D44": {
-                "account_number": "1402"
+            "周转材料": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1411,
+                "account_type": "Stock"
             },
-            "\u539F\u6750\u6599": {
-                "account_number": "1403"
+            "消耗性生物资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1421,
+                "account_type": ""
             },
-            "\u6750\u6599\u6210\u672C\u5DEE\u5F02": {
-                "account_number": "1404"
+            "贵金属": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1431,
+                "account_type": ""
             },
-            "\u5E93\u5B58\u5546\u54C1": {
-                "account_number": "1405",
-                "account_type": "Stock",
-                "is_group": "1"
+            "抵债资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1441,
+                "account_type": ""
             },
-            "\u53D1\u51FA\u5546\u54C1": {
-                "account_number": "1406"
+            "损余物资": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1451,
+                "account_type": ""
             },
-            "\u5546\u54C1\u8FDB\u9500\u5DEE\u4EF7": {
-                "account_number": "1407"
+            "融资租赁资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1461,
+                "account_type": ""
             },
-            "\u59D4\u6258\u52A0\u5DE5\u7269\u8D44": {
-                "account_number": "1408"
+            "存货跌价准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1471,
+                "account_type": ""
             },
-            "\u5468\u8F6C\u6750\u6599": {
-                "account_number": "1411"
+            "持有至到期投资": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1501,
+                "account_type": ""
             },
-            "\u6D88\u8017\u6027\u751F\u7269\u8D44\u4EA7": {
-                "account_number": "1421"
+            "持有至到期投资减值准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1502,
+                "account_type": ""
             },
-            "\u8D35\u91D1\u5C5E": {
-                "account_number": "1431"
+            "可供出售金融资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1503,
+                "account_type": ""
             },
-            "\u62B5\u503A\u8D44\u4EA7": {
-                "account_number": "1441"
+            "长期股权投资": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1511,
+                "account_type": ""
             },
-            "\u635F\u4F59\u7269\u8D44": {
-                "account_number": "1451"
+            "长期股权投资减值准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1512,
+                "account_type": ""
             },
-            "\u878D\u8D44\u79DF\u8D41\u8D44\u4EA7": {
-                "account_number": "1461"
+            "投资性房地产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1521,
+                "account_type": ""
             },
-            "\u5B58\u8D27\u8DCC\u4EF7\u51C6\u5907": {
-                "account_number": "1471"
+            "长期应收款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1531,
+                "account_type": ""
             },
-            "\u6301\u6709\u81F3\u5230\u671F\u6295\u8D44": {
-                "account_number": "1501"
+            "未实现融资收益": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1532,
+                "account_type": ""
             },
-            "\u6301\u6709\u81F3\u5230\u671F\u6295\u8D44\u51CF\u503C\u51C6\u5907": {
-                "account_number": "1502"
+            "存出资本保证金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1541,
+                "account_type": ""
             },
-            "\u53EF\u4F9B\u51FA\u552E\u91D1\u878D\u8D44\u4EA7": {
-                "account_number": "1503"
-            },
-            "\u957F\u671F\u80A1\u6743\u6295\u8D44": {
-                "account_number": "1511"
-            },
-            "\u957F\u671F\u80A1\u6743\u6295\u8D44\u51CF\u503C\u51C6\u5907": {
-                "account_number": "1512"
-            },
-            "\u6295\u8D44\u6027\u623F\u5730\u4EA7": {
-                "account_number": "1521"
-            },
-            "\u957F\u671F\u5E94\u6536\u6B3E": {
-                "account_number": "1531"
-            },
-            "\u672A\u5B9E\u73B0\u878D\u8D44\u6536\u76CA": {
-                "account_number": "1532"
-            },
-            "\u5B58\u51FA\u8D44\u672C\u4FDD\u8BC1\u91D1": {
-                "account_number": "1541"
-            },
-            "\u56FA\u5B9A\u8D44\u4EA7": {
-                "account_number": "1601",
+            "固定资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1601,
                 "account_type": "Fixed Asset"
             },
-            "\u7D2F\u8BA1\u6298\u65E7": {
-                "account_number": "1602",
+            "累计折旧": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1602,
                 "account_type": "Accumulated Depreciation"
             },
-            "\u56FA\u5B9A\u8D44\u4EA7\u51CF\u503C\u51C6\u5907": {
-                "account_number": "1603",
+            "固定资产减值准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1603,
+                "account_type": ""
+            },
+            "在建工程": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1604,
+                "account_type": "Capital Work in Progress"
+            },
+            "工程物资": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1605,
+                "account_type": ""
+            },
+            "固定资产清理": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1606,
+                "account_type": "Stock Adjustment"
+            },
+            "未担保余值": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1611,
+                "account_type": ""
+            },
+            "生产性生物资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1621,
                 "account_type": "Fixed Asset"
             },
-            "\u5728\u5EFA\u5DE5\u7A0B": {
-                "account_number": "1604",
+            "生产性生物资产累计折旧": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1622,
+                "account_type": "Accumulated Depreciation"
+            },
+            "公益性生物资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1623,
                 "account_type": "Fixed Asset"
             },
-            "\u5DE5\u7A0B\u7269\u8D44": {
-                "account_number": "1605",
+            "油气资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1631,
                 "account_type": "Fixed Asset"
             },
-            "\u56FA\u5B9A\u8D44\u4EA7\u6E05\u7406": {
-                "account_number": "1606",
+            "累计折耗": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1632,
+                "account_type": "Accumulated Depreciation"
+            },
+            "无形资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1701,
                 "account_type": "Fixed Asset"
             },
-            "\u672A\u62C5\u4FDD\u4F59\u503C": {
-                "account_number": "1611"
+            "累计摊销": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1702,
+                "account_type": ""
             },
-            "\u751F\u4EA7\u6027\u751F\u7269\u7269\u8D44": {
-                "account_number": "1621"
+            "无形资产减值准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1703,
+                "account_type": ""
             },
-            "\u751F\u4EA7\u6027\u751F\u7269\u7269\u8D44\u6298\u65E7": {
-                "account_number": "1622"
+            "商誉": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1711,
+                "account_type": ""
             },
-            "\u516C\u76CA\u6027\u751F\u7269\u8D44\u4EA7": {
-                "account_number": "1623"
+            "长期待摊费用": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1801,
+                "account_type": ""
             },
-            "\u6CB9\u6C14\u8D44\u4EA7": {
-                "account_number": "1631"
+            "递延所得税资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1811,
+                "account_type": ""
             },
-            "\u7D2F\u8BA1\u6298\u8017": {
-                "account_number": "1632"
+            "独立账户资产": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1821,
+                "account_type": ""
             },
-            "\u65E0\u5F62\u8D44\u4EA7": {
-                "account_number": "1701"
-            },
-            "\u7D2F\u8BA1\u644A\u9500": {
-                "account_number": "1702"
-            },
-            "\u65E0\u5F62\u8D44\u4EA7\u51CF\u503C\u51C6\u5907": {
-                "account_number": "1703"
-            },
-            "\u5546\u8A89": {
-                "account_number": "1711"
-            },
-            "\u957F\u671F\u5F85\u644A\u8D39\u7528": {
-                "account_number": "1801"
-            },
-            "\u9012\u5EF6\u6240\u5F97\u7A0E\u8D44\u4EA7": {
-                "account_number": "1811"
-            },
-            "\u72EC\u7ACB\u8D26\u6237\u8D44\u4EA7": {
-                "account_number": "1821"
-            },
-            "\u5F85\u5904\u7406\u8D22\u4EA7\u635F\u6EA2": {
-                "account_number": "1901"
+            "待处理财产损溢": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 1901,
+                "account_type": ""
             }
         },
-        "\u8D1F\u503A": {
-            "Stock Received But Not Billed": {
-                "account_type": "Stock Received But Not Billed"
-            },
-            "account_number": "2",
+        "负债类": {
+            "is_group": 1,
             "root_type": "Liability",
-            "is_group": "1",
-            "\u77ED\u671F\u501F\u6B3E": {
-                "account_number": "2001"
+            "account_number": "",
+            "account_type": "",
+            "短期借款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2001,
+                "account_type": ""
             },
-            "\u5B58\u5165\u4FDD\u8BC1\u91D1": {
-                "account_number": "2002"
+            "存入保证金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2002,
+                "account_type": ""
             },
-            "\u62C6\u5165\u8D44\u91D1": {
-                "account_number": "2003"
+            "拆入资金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2003,
+                "account_type": ""
             },
-            "\u5411\u4E2D\u592E\u94F6\u884C\u501F\u6B3E": {
-                "account_number": "2004"
+            "向中央银行借款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2004,
+                "account_type": ""
             },
-            "\u5438\u6536\u5B58\u6B3E": {
-                "account_number": "2011"
+            "吸收存款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2011,
+                "account_type": ""
             },
-            "\u540C\u4E1A\u5B58\u653E": {
-                "account_number": "2012"
+            "同业存放": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2012,
+                "account_type": ""
             },
-            "\u8D34\u73B0\u8D1F\u503A": {
-                "account_number": "2021"
+            "贴现负债": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2021,
+                "account_type": ""
             },
-            "\u4EA4\u6613\u6027\u91D1\u878D\u8D1F\u503A": {
-                "account_number": "2101"
+            "交易性金融负债": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2101,
+                "account_type": ""
+            },            
+            "应付票据": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2201,
+                "account_type": ""
             },
-            "\u5356\u51FA\u56DE\u8D2D\u91D1\u878D\u8D44\u4EA7\u6B3E": {
-                "account_number": "2111"
+            "应付账款": {
+                "is_group": 1,
+                "root_type": "",
+                "account_number": 2202,
+                "account_type": "",
+                "应付账款-供应商款": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 220201,
+                    "account_type": "Payable"
+                },
+                "应付账款-暂估": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 220202,
+                    "account_type": "Stock Received But Not Billed"
+                }
             },
-            "\u5E94\u6536\u7968\u636E": {
-                "account_number": "2201",
+            "预收账款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2203,
+                "account_type": ""
+            },
+            "应付职工薪酬": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2211,
                 "account_type": "Payable"
             },
-            "\u5E94\u6536\u8D26\u6B3E": {
-                "account_number": "2202",
-                "account_type": "Payable",
-                "is_group": "1",
-                "\u5B9E\u6B3E": {
-                    "account_number": "2202.01"
+            "应交税费": {
+                "is_group": 1,
+                "root_type": "",
+                "account_number": 2221,
+                "account_type": "",
+                "应交增值税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221001,
+                    "account_type": ""
                 },
-                "\u6682\u4F30": {
-                    "account_number": "2202.02"
+                "未交增值税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221002,
+                    "account_type": ""
+                },
+                "应交消费税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221003,
+                    "account_type": ""
+                },
+                "应交营业税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221004,
+                    "account_type": ""
+                },
+                "应交资源税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221005,
+                    "account_type": ""
+                },
+                "应交所得税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221006,
+                    "account_type": ""
+                },
+                "应交土地增值税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221007,
+                    "account_type": ""
+                },
+                "应交城市维护建设税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221008,
+                    "account_type": ""
+                },
+                "应交房产税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221009,
+                    "account_type": ""
+                },
+                "应交城镇土地使用税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221010,
+                    "account_type": ""
+                },
+                "应交车船使用税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221011,
+                    "account_type": ""
+                },
+                "应交个人所得税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221012,
+                    "account_type": ""
+                },
+                "教育费附加": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221013,
+                    "account_type": ""
+                },
+                "地方教育费附加": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221014,
+                    "account_type": ""
+                },
+                "矿产资源补偿费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221015,
+                    "account_type": ""
+                },
+                "排污费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221016,
+                    "account_type": ""
+                },
+                "印花税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221017,
+                    "account_type": ""
+                },
+                "预交增值税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221018,
+                    "account_type": ""
+                },
+                "待抵扣进项税额": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221019,
+                    "account_type": ""
+                },
+                "待认证进项税额": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221020,
+                    "account_type": ""
+                },
+                "待转销项税额": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221021,
+                    "account_type": ""
+                },
+                "增值税留抵税额": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221022,
+                    "account_type": ""
+                },
+                "简易计税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221023,
+                    "account_type": ""
+                },
+                "转让金融商品应交增值税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221024,
+                    "account_type": ""
+                },
+                "代扣代交增值税": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221025,
+                    "account_type": ""
+                },
+                "应交增值税（小规模纳税人专用）": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2221026,
+                    "account_type": ""
                 }
             },
-            "\u9884\u552E\u8D26\u6B3E": {
-                "account_number": "2203",
-                "is_group": "1",
-                "account_type": "Payable",
-                "\u8D27\u6B3E": {
-                    "account_number": "2205.01"
+            "应付利息": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2231,
+                "account_type": ""
+            },
+            "应付股利": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2232,
+                "account_type": ""
+            },
+            "其他应付款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2241,
+                "account_type": ""
+            },
+            "应付保单红利": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2251,
+                "account_type": ""
+            },
+            "应付分保账款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2261,
+                "account_type": ""
+            },
+            "代理买卖证券款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2311,
+                "account_type": ""
+            },
+            "代理承销证券款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2312,
+                "account_type": ""
+            },
+            "代理兑付证券款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2313,
+                "account_type": ""
+            },
+            "代理业务负债": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2314,
+                "account_type": ""
+            },
+            "递延收益": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2401,
+                "account_type": ""
+            },
+            "长期借款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2501,
+                "account_type": ""
+            },
+            "应付债券": {
+                "is_group": 1,
+                "root_type": "Expense",
+                "account_number": 2502,
+                "account_type": "Expense Account",
+                "优先股": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2502001,
+                    "account_type": ""
+                },
+                "永续股": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 2502002,
+                    "account_type": ""
                 }
             },
-            "\u5E94\u4ED8\u804C\u5DE5\u85AA\u916C": {
-                "account_number": "2211",
-                "is_group": "1",
-                "\u5DE5\u8D44": {
-                    "account_number": "2211.01"
-                },
-                "\u793E\u4F1A\u4FDD\u9669": {
-                    "account_number": "2211.02"
-                },
-                "\u5DE5\u4F1A\u7ECF\u8D39": {
-                    "account_number": "2211.03"
-                },
-                "\u8F9E\u9000\u798F\u5229": {
-                    "account_number": "2211.04"
-                },
-                "\u5956\u91D1": {
-                    "account_number": "2211.05"
-                },
-                "\u804C\u5DE5\u798F\u5229\u8D39": {
-                    "account_number": "2211.06"
-                }
+            "未到期责任准备金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2601,
+                "account_type": ""
             },
-            "\u5E94\u4EA4\u7A0E\u8D39": {
-                "account_number": "2221",
-                "account_type": "Tax",
-                "is_group": "1",
-                "\u5E94\u4EA4\u589E\u503C\u7A0E": {
-                    "account_number": "2221.01",
-                    "is_group": "1",
-                    "\u5C0F\u89C4\u6A21": {
-                        "account_number": "2221.01.01"
+            "保险责任准备金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2602,
+                "account_type": ""
+            },
+            "保户储金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2611,
+                "account_type": ""
+            },
+            "独立账户负债": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2621,
+                "account_type": ""
+            },
+            "长期应付款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2701,
+                "account_type": "Asset Received But Not Billed"
+            },
+            "未确认融资费用": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2702,
+                "account_type": ""
+            },
+            "专项应付款": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2711,
+                "account_type": ""
+            },
+            "预计负债": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2801,
+                "account_type": ""
+            },
+            "递延所得税负债": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 2901,
+                "account_type": ""
+            }
+        },
+        "权益类": {
+            "is_group": 1,
+            "root_type": "Equity",
+            "account_number": "",
+            "account_type": "",
+            "实收资本": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4001,
+                "account_type": "Equity"
+            },
+            "资本公积": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4002,
+                "account_type": "Equity"
+            },
+            "其他权益工具": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4003,
+                "account_type": "Equity"
+            },
+            "其他综合收益": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4004,
+                "account_type": "Equity"
+            },
+            "盈余公积": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4101,
+                "account_type": "Equity"
+            },
+            "一般风险准备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4102,
+                "account_type": "Equity"
+            },
+            "本年利润": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4103,
+                "account_type": "Equity"
+            },
+            "利润分配": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4104,
+                "account_type": "Equity"
+            },
+            "专项储备": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4105,
+                "account_type": "Equity"
+            },
+            "库存股": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 4201,
+                "account_type": "Equity"
+            }
+        },
+        "成本类": {
+            "is_group": 1,
+            "root_type": "Expense",
+            "account_number": "",
+            "account_type": "",
+            "tax_rate": "",
+            "生产成本": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5001,
+                "account_type": "",
+                "tax_rate": "",
+                "生产成本-基本生产成本": {
+                    "is_group": 1,
+                    "root_type": "",
+                    "account_number": 500101,
+                    "account_type": "",
+                    "tax_rate": "",
+                    "生产成本-基本生产成本-直接材料": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010101,
+                        "account_type": "Cost of Goods Sold",
+                        "tax_rate": ""
                     },
-                    "\u8FDB\u9879\u7A0E\u989D": {
-                        "account_number": "2221.01.02"
+                    "生产成本-基本生产成本-直接人工": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010102,
+                        "account_type": "Cost of Goods Sold",
+                        "tax_rate": ""
                     },
-                    "\u5DF2\u4EA4\u7A0E\u91D1": {
-                        "account_number": "2221.01.03"
+                    "生产成本-基本生产成本-制造费用": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010103,
+                        "account_type": "Cost of Goods Sold",
+                        "tax_rate": ""
                     },
-                    "\u8F6C\u51FA\u672A\u4EA4\u589E\u503C\u7A0E": {
-                        "account_number": "2221.01.04"
-                    },
-                    "\u51CF\u514D\u7A0E\u6B3E": {
-                        "account_number": "2221.01.05"
-                    },
-                    "\u9500\u9879\u7A0E\u989D": {
-                        "account_number": "2221.01.06"
-                    },
-                    "\u51FA\u53E3\u9000\u7A0E": {
-                        "account_number": "2221.01.07"
-                    },
-                    "\u8FDB\u9879\u7A0E\u989D\u8F6C\u51FA": {
-                        "account_number": "2221.01.08"
-                    },
-                    "\u51FA\u53E3\u62B5\u51CF\u5185\u9500\u4EA7\u54C1\u5E94\u7EB3\u7A0E\u989D": {
-                        "account_number": "2221.01.09"
-                    },
-                    "\u8F6C\u51FA\u591A\u4EA4\u589E\u503C\u7A0E": {
-                        "account_number": "2221.01.10"
+                    "生产成本-基本生产成本-辅助材料": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010104,
+                        "account_type": "Cost of Goods Sold",
+                        "tax_rate": ""
                     }
                 },
-                "\u672A\u4EA4\u589E\u503C\u7A0E": {
-                    "account_number": "2221.02"
-                },
-                "\u5E94\u4EA4\u6D88\u8D39\u7A0E": {
-                    "account_number": "2221.03"
-                },
-                "\u5E94\u4EA4\u4F01\u4E1A\u6240\u5F97\u7A0E": {
-                    "account_number": "2221.04"
-                },
-                "\u5E94\u4EA4\u571F\u5730\u589E\u503C\u7A0E": {
-                    "account_number": "2221.05"
-                },
-                "\u5E94\u4EA4\u8F66\u8239\u4F7F\u7528\u7A0E": {
-                    "account_number": "2221.06"
-                },
-                "\u5E94\u4EA4\u4E2A\u4EBA\u6240\u5F97\u7A0E": {
-                    "account_number": "2221.07"
-                },
-                "\u5E94\u4EA4\u6559\u80B2\u9644\u52A0": {
-                    "account_number": "2221.08"
-                },
-                "\u5E94\u4EA4\u5730\u65B9\u6559\u80B2\u9644\u52A0": {
-                    "account_number": "2221.09"
-                },
-                "\u5E94\u4EA4\u57CE\u5E02\u7EF4\u62A4\u5EFA\u8BBE\u7A0E": {
-                    "account_number": "2221.10"
-                },
-                "\u5E94\u4EA4\u5370\u82B1\u7A0E": {
-                    "account_number": "2221.11"
-                },
-                "\u5E94\u4EA4\u623F\u4EA7\u7A0E": {
-                    "account_number": "2221.12"
-                },
-                "\u5E94\u4EA4\u8D44\u6E90\u7A0E": {
-                    "account_number": "2221.13"
-                },
-                "\u5E94\u4EA4\u9884\u4EA4\u589E\u503C\u7A0E": {
-                    "account_number": "2221.14"
-                },
-                "\u5E94\u4EA4\u5F85\u62B5\u6263\u8FDB\u9879\u7A0E\u989D": {
-                    "account_number": "2221.15"
-                },
-                "\u5E94\u4EA4\u5F85\u8BA4\u8BC1\u8FDB\u9879\u7A0E\u989D": {
-                    "account_number": "2221.16"
-                },
-                "\u5E94\u4EA4\u5F85\u8F6C\u9500\u9879\u7A0E\u989D": {
-                    "account_number": "2221.17"
-                },
-                "\u5E94\u4EA4\u589E\u503C\u7A0E\u7559\u62B5\u7A0E\u989D": {
-                    "account_number": "2221.18"
-                },
-                "\u5E94\u4EA4\u8F6C\u8BA9\u91D1\u878D\u5546\u54C1\u5E94\u4EA4\u589E\u503C\u7A0E": {
-                    "account_number": "2221.19"
-                },
-                "\u5E94\u4EA4\u4EE3\u6263\u4EE3\u4EA4\u589E\u503C\u7A0E": {
-                    "account_number": "2221.20"
-                },
-                "\u5E94\u4EA4\u7B80\u6613\u8BA1\u7A0E": {
-                    "account_number": "2221.21"
-                },
-                "\u5E94\u4EA4\u6392\u6C61\u8D39": {
-                    "account_number": "2221.22"
-                },
-                "\u5E94\u4EA4\u77FF\u4EA7\u8D44\u6E90\u8865\u507F\u8D39": {
-                    "account_number": "2221.23"
-                },
-                "\u5E94\u4EA4\u6B8B\u75BE\u4EBA\u5C31\u4E1A\u4FDD\u8BC1\u91D1": {
-                    "account_number": "2222.24"
-                },
-                "\u5E94\u4EA4\u6587\u5316\u4E8B\u4E1A\u5EFA\u8BBE\u8D39": {
-                    "account_number": "2222.25"
+                "生产成本-辅助生产成本": {
+                    "is_group": 1,
+                    "root_type": "",
+                    "account_number": 500102,
+                    "account_type": "",
+                    "tax_rate": "",
+                    "生产成本-辅助生产成本-库存调整": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010201,
+                        "account_type": "Stock Adjustment",
+                        "tax_rate": ""
+                    },
+                    "生产成本-辅助生产成本-计入库存评估价的费用科目": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010202,
+                        "account_type": "Expenses Included In Valuation",
+                        "tax_rate": ""
+                    },
+                    "生产成本-辅助生产成本-包含在资产评估价中的费用科目": {
+                        "is_group": "",
+                        "root_type": "",
+                        "account_number": 50010203,
+                        "account_type": "Expenses Included In Asset Valuation",
+                        "tax_rate": ""
+                    }
                 }
             },
-            "\u5E94\u4ED8\u5229\u606F": {
-                "account_number": "2231"
+            "制造费用": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5101,
+                "account_type": "Cost of Goods Sold",
+                "tax_rate": ""
             },
-            "\u5E94\u4ED8\u80A1\u5229": {
-                "account_number": "2232"
+            "劳务成本": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5201,
+                "account_type": "Cost of Goods Sold",
+                "tax_rate": ""
             },
-            "\u5176\u4ED6\u5E94\u4ED8\u6B3E": {
-                "account_number": "2241",
-                "is_group": "1",
-                "\u5458\u5DE5": {
-                    "account_number": "2241.01"
-                },
-                "\u5916\u90E8\u5355\u4F4D": {
-                    "account_number": "2241.02"
-                }
+            "研发支出": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5301,
+                "account_type": "Cost of Goods Sold",
+                "tax_rate": ""
             },
-            "\u5E94\u4ED8\u4FDD\u5355\u7EA2\u5229": {
-                "account_number": "2251"
+            "工程施工": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5401,
+                "account_type": "Cost of Goods Sold",
+                "tax_rate": ""
             },
-            "\u5E94\u4ED8\u5206\u4FDD\u8D26\u6B3E": {
-                "account_number": "2261"
+            "工程结算": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5402,
+                "account_type": "Cost of Goods Sold",
+                "tax_rate": ""
             },
-            "\u4EE3\u7406\u4E70\u5356\u8BC1\u5238\u6B3E": {
-                "account_number": "2311"
-            },
-            "\u4EE3\u7406\u627F\u9500\u8BC1\u5238\u6B3E": {
-                "account_number": "2312"
-            },
-            "\u4EE3\u7406\u5151\u4ED8\u8BC1\u5238\u6B3E": {
-                "account_number": "2313"
-            },
-            "\u4EE3\u7406\u4E1A\u52A1\u8D1F\u503A": {
-                "account_number": "2314"
-            },
-            "\u9012\u5EF6\u6536\u76CA": {
-                "account_number": "2401"
-            },
-            "\u957F\u671F\u501F\u6B3E": {
-                "account_number": "2501"
-            },
-            "\u5E94\u4ED8\u503A\u5238": {
-                "account_number": "2502"
-            },
-            "\u672A\u5230\u671F\u8D23\u4EFB\u51C6\u5907\u91D1": {
-                "account_number": "2601"
-            },
-            "\u4FDD\u9669\u8D23\u4EFB\u51C6\u5907\u91D1": {
-                "account_number": "2602"
-            },
-            "\u4FDD\u6237\u50A8\u91D1": {
-                "account_number": "2611"
-            },
-            "\u72EC\u7ACB\u8D26\u6237\u8D1F\u503A": {
-                "account_number": "2621"
-            },
-            "\u957F\u671F\u5E94\u4ED8\u6B3E": {
-                "account_number": "2701"
-            },
-            "\u672A\u786E\u8BA4\u878D\u8D44\u8D39\u7528": {
-                "account_number": "2702"
-            },
-            "\u4E13\u9879\u5E94\u4ED8\u6B3E": {
-                "account_number": "2711"
-            },
-            "\u9884\u8BA1\u8D1F\u503A": {
-                "account_number": "2801"
-            },
-            "\u9012\u5EF6\u6240\u5F97\u7A0E\u8D1F\u503A": {
-                "account_number": "2901"
+            "机械作业": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 5403,
+                "account_type": "Cost of Goods Sold",
+                "tax_rate": ""
             }
         },
-        "\u6240\u6709\u8005\u6743\u76CA": {
-            "account_number": "4",
-            "root_type": "Equity",
-            "is_group": "1",
-            "\u5B9E\u6536\u8D44\u672C": {
-                "account_number": "4001"
-            },
-            "\u8D44\u672C\u516C\u79EF": {
-                "account_number": "4002"
-            },
-            "\u76C8\u4F59\u516C\u79EF": {
-                "account_number": "4101"
-            },
-            "\u4E00\u822C\u98CE\u9669\u51C6\u5907": {
-                "account_number": "4102"
-            },
-            "\u672C\u5E74\u5229\u6DA6": {
-                "account_number": "4103"
-            },
-            "\u5229\u6DA6\u5206\u914D": {
-                "account_number": "4104"
-            },
-            "\u5E93\u5B58\u80A1": {
-                "account_number": "4201"
-            }
-        },
-        "\u8CBB\u7528": {
-            "account_number": "5",
+        "共同类": {
+            "is_group": 1,
             "root_type": "Expense",
-            "is_group": "1",
-            "\u751F\u4EA7\u6210\u672C": {
-                "account_number": "5001",
-                "is_group": "1",
-                "\u57FA\u672C\u751F\u4EA7\u6210\u672C": {
-                    "account_number": "5001.01"
-                },
-                "\u539F\u6750\u6599": {
-                    "account_number": "5001.02"
-                },
-                "\u76F4\u63A5\u4EBA\u5DE5": {
-                    "account_number": "5001.03"
-                },
-                "\u76F4\u63A5\u798F\u5229\u8D39": {
-                    "account_number": "5001.04"
-                },
-                "\u8F85\u52A9\u751F\u4EA7\u6210\u672C": {
-                    "account_number": "5001.05"
-                }
+            "account_number": "",
+            "account_type": "",
+            "清算资金往来": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 3001,
+                "account_type": ""
             },
-            "\u5236\u9020\u8D39\u7528": {
-                "account_number": "5101",
-                "is_group": "1",
-                "\u7ED3\u8F6C\u5236\u9020\u8D39\u7528": {
-                    "account_number": "5101.01"
-                }
+            "货币兑换": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 3002,
+                "account_type": ""
             },
-            "\u52B3\u52A1\u6210\u672C": {
-                "account_number": "5201"
+            "衍生工具": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 3101,
+                "account_type": ""
             },
-            "\u7814\u53D1\u652F\u51FA": {
-                "account_number": "5301"
+            "套期工具": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 3201,
+                "account_type": ""
             },
-            "\u5DE5\u7A0B\u65BD\u5DE5": {
-                "account_number": "5401"
-            },
-            "\u5DE5\u7A0B\u7ED3\u7B97": {
-                "account_number": "5402"
-            },
-            "\u673A\u68B0\u4F5C\u4E1A": {
-                "account_number": "5403"
-            },
-            "\u644A\u56DE\u4FDD\u9669\u8D23\u4EFB\u51C6\u5907\u91D1": {
-                "account_number": "6201"
-            },
-            "\u644A\u56DE\u8D54\u4ED8\u652F\u51FA": {
-                "account_number": "6202"
-            },
-            "\u644A\u56DE\u5206\u4FDD\u8D39\u7528": {
-                "account_number": "6203"
-            },
-            "\u4E3B\u8425\u4E1A\u52A1\u6210\u672C": {
-                "account_number": "6401"
-            },
-            "\u5176\u4ED6\u4E1A\u52A1\u6210\u672C": {
-                "account_number": "6402"
-            },
-            "\u7A0E\u91D1\u53CA\u9644\u52A0": {
-                "account_number": "6403"
-            },
-            "\u5229\u606F\u652F\u51FA": {
-                "account_number": "6411"
-            },
-            "\u624B\u7EED\u8D39\u53CA\u4F63\u91D1\u652F\u51FA": {
-                "account_number": "6421"
-            },
-            "\u63D0\u53D6\u672A\u5230\u671F\u8D23\u4EFB\u51C6\u5907\u91D1": {
-                "account_number": "6501"
-            },
-            "\u63D0\u53D6\u4FDD\u9669\u8D23\u4EFB\u51C6\u5907\u91D1": {
-                "account_number": "6502"
-            },
-            "\u8D54\u4ED8\u652F\u51FA": {
-                "account_number": "6511"
-            },
-            "\u4FDD\u6237\u7EA2\u5229\u652F\u51FA": {
-                "account_number": "6521"
-            },
-            "\u9000\u4FDD\u91D1": {
-                "account_number": "6531"
-            },
-            "\u5206\u51FA\u4FDD\u8D39": {
-                "account_number": "6541"
-            },
-            "\u5206\u4FDD\u8D39\u7528": {
-                "account_number": "6542"
-            },
-            "\u9500\u552E\u8D39\u7528": {
-                "account_number": "6601",
-                "account_type": "Cost of Goods Sold"
-            },
-            "\u7BA1\u7406\u8D39\u7528": {
-                "account_number": "6602",
-                "is_group": "1",
-                "\u6298\u65E7": {
-                    "account_number": "6602.01",
-                    "account_type": "Depreciation"
-                },
-                "\u5E93\u5B58\u8C03\u6574": {
-                    "account_number": "6602.02",
-                    "account_type": "Stock Adjustment"
-                }
-            },
-            "\u8D22\u52A1\u8D39\u7528": {
-                "account_number": "6603",
-                "is_group": "1",
-                "\u56DB\u820D\u4E94\u5165": {
-                    "account_type": "Round Off"
-                }
-            },
-            "\u52D8\u63A2\u8D39\u7528": {
-                "account_number": "6604"
-            },
-            "\u8D44\u4EA7\u51CF\u503C\u635F\u5931": {
-                "account_number": "6701"
-            },
-            "\u8425\u4E1A\u5916\u652F\u51FA": {
-                "account_number": "6711",
-                "is_group": "1",
-                "\u975E\u6D41\u52A8\u6027\u8D44\u4EA7\u5904\u7F6E\u51C0\u635F\u5931": {
-                    "account_number": "6711.01"
-                },
-                "\u8D5E\u52A9\u6307\u51FA": {
-                    "account_number": "6711.02"
-                },
-                "\u574F\u8D26\u635F\u5931": {
-                    "account_number": "6711.03"
-                },
-                "\u65E0\u6CD5\u6536\u56DE\u7684\u957F\u671F\u503A\u5238\u6295\u8D44\u635F\u5931": {
-                    "account_number": "6711.04"
-                },
-                "\u65E0\u6CD5\u6536\u56DE\u7684\u957F\u671F\u80A1\u6743\u6295\u8D44\u635F\u5931": {
-                    "account_number": "6711.05"
-                },
-                "\u81EA\u7136\u707E\u5BB3\u7B49\u4E0D\u53EF\u6297\u529B\u56E0\u7D20\u9020\u6210\u7684\u635F\u5931": {
-                    "account_number": "6711.06"
-                },
-                "\u8425\u4E1A\u7A0E\u6EDE\u7EB3\u91D1": {
-                    "account_number": "6711.07"
-                },
-                "\u7F5A\u6B3E\u53CA\u6EDE\u7EB3\u91D1": {
-                    "account_number": "6711.08"
-                }
-            },
-            "\u6240\u5F97\u7A0E\u8D39\u7528": {
-                "account_number": "6801"
-            },
-            "\u4EE5\u524D\u5E74\u5EA6\u635F\u76CA\u8C03\u6574": {
-                "account_number": "6901"
+            "被套期项目": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 3202,
+                "account_type": ""
             }
         },
-        "\u6536\u5165": {
-            "account_number": "6",
+        "损益类": {
+            "is_group": 1,
             "root_type": "Income",
-            "is_group": "1",
-            "\u4E3B\u8425\u4E1A\u52A1\u6536\u5165": {
-                "account_number": "6001"
+            "account_number": "",
+            "account_type": "",
+            "主营业务收入": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6001,
+                "account_type": "Income Account"
             },
-            "\u5229\u606F\u6536\u5165": {
-                "account_number": "6011"
+            "利息收入": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6011,
+                "account_type": "Income Account"
             },
-            "\u624B\u7EED\u8D39\u6536\u5165": {
-                "account_number": "6021"
+            "手续费及佣金收入": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6021,
+                "account_type": "Income Account"
             },
-            "\u4FDD\u8D39\u6536\u5165": {
-                "account_number": "6031"
+            "保费收入": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6031,
+                "account_type": "Income Account"
             },
-            "\u5206\u4FDD\u8D39\u6536\u5165": {
-                "account_number": "6032"
+            "租赁收入": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6041,
+                "account_type": "Income Account"
             },
-            "\u79DF\u8D41\u6536\u5165": {
-                "account_number": "6041"
+            "其他业务收入": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6051,
+                "account_type": "Income Account"
             },
-            "\u5176\u4ED6\u4E1A\u52A1\u6536\u5165": {
-                "account_number": "6051"
+            "汇兑损益": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6061,
+                "account_type": "Income Account"
             },
-            "\u6C47\u5151\u635F\u76CA": {
-                "account_number": "6061"
+            "公允价值变动损益": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6101,
+                "account_type": "Income Account"
             },
-            "\u516C\u5141\u4EF7\u503C\u53D8\u52A8\u635F\u76CA": {
-                "account_number": "6101"
+            "投资收益": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6111,
+                "account_type": "Income Account"
             },
-            "\u6295\u8D44\u6536\u76CA": {
-                "account_number": "6111"
+            "摊回保险责任准备金": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6201,
+                "account_type": "Income Account"
             },
-            "\u8425\u4E1A\u5916\u6536\u5165": {
-                "account_number": "6301",
-                "is_group": "1",
-                "\u975E\u6D41\u52A8\u8D44\u4EA7\u5904\u7F6E\u51C0\u6536\u76CA": {
-                    "account_number": "6301.01"
+            "摊回赔付支出": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6202,
+                "account_type": "Income Account"
+            },
+            "摊回分保费用": {
+                "is_group": "",
+                "root_type": "Income",
+                "account_number": 6203,
+                "account_type": "Income Account"
+            },
+            "营业外收入": {
+                "is_group": 1,
+                "root_type": "Income",
+                "account_number": "",
+                "account_type": "Income Account",
+                "非流动资产处置净收益": {
+                    "is_group": "",
+                    "root_type": "Income",
+                    "account_number": 6301001,
+                    "account_type": "Income Account"
                 },
-                "\u653F\u5E9C\u8865\u52A9": {
-                    "account_number": "6301.02"
+                "政府补助": {
+                    "is_group": "",
+                    "root_type": "Income",
+                    "account_number": 6301002,
+                    "account_type": "Income Account"
                 },
-                "\u6350\u8D60\u6536\u76CA": {
-                    "account_number": "6301.03"
+                "捐赠收益": {
+                    "is_group": "",
+                    "root_type": "Income",
+                    "account_number": 6301003,
+                    "account_type": "Income Account"
                 },
-                "\u76D8\u76C8\u6536\u76CA": {
-                    "account_number": "6301.04"
-                },
-                "\u589E\u503C\u7A0E\u8FDB\u9879\u7A0E\u989D\u52A0\u8BA1\u6263\u9664": {
-                    "account_number": "6301.05"
+                "盘盈收益": {
+                    "is_group": "",
+                    "root_type": "Income",
+                    "account_number": 6301004,
+                    "account_type": "Income Account"
                 }
+            },
+            "主营业务成本": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6401,
+                "account_type": "Expense Account"
+            },
+            "其他业务成本": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6402,
+                "account_type": "Expense Account"
+            },
+            "税金及附加": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6403,
+                "account_type": "Expense Account"
+            },
+            "利息支出": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6411,
+                "account_type": "Expense Account"
+            },
+            "手续费及佣金支出": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6421,
+                "account_type": "Expense Account"
+            },
+            "提取未到期责任准备金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6501,
+                "account_type": "Expense Account"
+            },
+            "提取保险责任准备金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6502,
+                "account_type": "Expense Account"
+            },
+            "赔付支出": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6511,
+                "account_type": "Expense Account"
+            },
+            "保单红利支出": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6521,
+                "account_type": "Expense Account"
+            },
+            "退保金": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6531,
+                "account_type": "Expense Account"
+            },
+            "分出保费": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6541,
+                "account_type": "Expense Account"
+            },
+            "分保费用": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6542,
+                "account_type": "Expense Account"
+            },
+            "销售费用": {
+                "is_group": 1,
+                "root_type": "Expense",
+                "account_number": "",
+                "account_type": "Expense Account",
+                "销售人员职工薪酬": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601001,
+                    "account_type": "Expense Account"
+                },
+                "业务招待费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601002,
+                    "account_type": "Expense Account"
+                },
+                "修理费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601003,
+                    "account_type": "Expense Account"
+                },
+                "办公费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601004,
+                    "account_type": "Expense Account"
+                },
+                "水电费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601005,
+                    "account_type": "Expense Account"
+                },
+                "差旅费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601006,
+                    "account_type": "Expense Account"
+                },
+                "折旧费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601007,
+                    "account_type": "Expense Account"
+                },
+                "摊销费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601008,
+                    "account_type": "Expense Account"
+                },
+                "展览费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601009,
+                    "account_type": "Expense Account"
+                },
+                "商品维修费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601010,
+                    "account_type": "Expense Account"
+                },
+                "运输费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601011,
+                    "account_type": "Expense Account"
+                },
+                "装卸费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601012,
+                    "account_type": "Expense Account"
+                },
+                "包装费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601013,
+                    "account_type": "Expense Account"
+                },
+                "保险费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601014,
+                    "account_type": "Expense Account"
+                },
+                "广告费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601015,
+                    "account_type": "Expense Account"
+                },
+                "业务宣传费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6601016,
+                    "account_type": "Expense Account"
+                }
+            },
+            "管理费用": {
+                "is_group": 1,
+                "root_type": "Expense",
+                "account_number": "",
+                "account_type": "Expense Account",
+                "管理人员职工薪酬": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602001,
+                    "account_type": "Expense Account"
+                },
+                "业务招待费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602002,
+                    "account_type": "Expense Account"
+                },
+                "修理费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602003,
+                    "account_type": "Expense Account"
+                },
+                "办公费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602004,
+                    "account_type": "Expense Account"
+                },
+                "水电费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602005,
+                    "account_type": "Expense Account"
+                },
+                "差旅费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602006,
+                    "account_type": "Expense Account"
+                },
+                "折旧费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602007,
+                    "account_type": "Expense Account"
+                },
+                "摊销费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602008,
+                    "account_type": "Expense Account"
+                },
+                "开办费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602009,
+                    "account_type": "Expense Account"
+                },
+                "研究费用": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602010,
+                    "account_type": "Expense Account"
+                },
+                "咨询费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602011,
+                    "account_type": "Expense Account"
+                },
+                "长期待摊费用摊销": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6602012,
+                    "account_type": "Expense Account"
+                }
+            },
+            "财务费用": {
+                "is_group": 1,
+                "root_type": "Expense",
+                "account_number": "",
+                "account_type": "Expense Account",
+                "利息费用": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6603001,
+                    "account_type": "Expense Account"
+                },
+                "手续费": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6603002,
+                    "account_type": "Expense Account"
+                },
+                "汇兑损益": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6603003,
+                    "account_type": "Expense Account"
+                },
+                "现金折扣": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6603004,
+                    "account_type": "Expense Account"
+                }
+            },
+            "勘探费用": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6604,
+                "account_type": "Expense Account"
+            },
+            "资产减值损失": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6701,
+                "account_type": "Expense Account"
+            },
+            "营业外支出": {
+                "is_group": 1,
+                "root_type": "Expense",
+                "account_number": 6711,
+                "account_type": "Expense Account",
+                "非流动资产处置净损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711001,
+                    "account_type": "Expense Account"
+                },
+                "赞助支出": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711002,
+                    "account_type": "Expense Account"
+                },
+                "捐赠支出": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711003,
+                    "account_type": "Expense Account"
+                },
+                "盘亏损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711004,
+                    "account_type": "Expense Account"
+                },
+                "坏账损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711005,
+                    "account_type": "Expense Account"
+                },
+                "存货毁损报废损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711006,
+                    "account_type": "Expense Account"
+                },
+                "无法收回的长期债券投资损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711007,
+                    "account_type": "Expense Account"
+                },
+                "无法收回的长期股权投资损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711008,
+                    "account_type": "Expense Account"
+                },
+                "自然灾害等不可抗力因素造成的损失": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711009,
+                    "account_type": "Expense Account"
+                },
+                "税收滞纳金": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711010,
+                    "account_type": "Expense Account"
+                },
+                "罚款支出": {
+                    "is_group": "",
+                    "root_type": "",
+                    "account_number": 6711011,
+                    "account_type": "Expense Account"
+                }
+            },
+            "所得税费用": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6801,
+                "account_type": "Expense Account"
+            },
+            "以前年度损益调整": {
+                "is_group": "",
+                "root_type": "",
+                "account_number": 6901,
+                "account_type": "Expense Account"
             }
         }
     }
